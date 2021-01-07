@@ -1,0 +1,24 @@
+{
+  "name": "react-img-magnifier",
+  "version": "1.0.8",
+  "main":"build",
+  "files": ["build"],
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^9.5.0",
+    "@neutrinojs/react-components": "^9.5.0",
+    "jest": "^26",
+    "neutrino": "^9.5.0",
+    "prop-types": "^15",
+    "react": "^16",
+    "react-dom": "^16",
+    "webpack": "^4",
+    "webpack-cli": "^3",
+    "webpack-dev-server": "^3"
+  }
+}
