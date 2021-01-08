@@ -55,8 +55,6 @@ const ImgMagnifier = ({ pwidth,pheight, scale=1, marginTop = 0, marginLeft = 10,
                 <img style={{ width: width + 'px', height: height + 'px', left: left, top: top, position: 'relative' }} src={src} id={'big_Id'} />
             </div>
         }
-
-
     </div>
 
 }

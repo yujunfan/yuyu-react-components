@@ -1,13 +1,17 @@
 {
   "name": "react-img-magnifier",
-  "version": "1.0.8",
-  "main":"build",
+  "version": "1.0.9",
   "files": ["build"],
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "test": "jest"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   },
   "devDependencies": {
     "@neutrinojs/jest": "^9.5.0",
