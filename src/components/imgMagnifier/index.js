@@ -18,7 +18,6 @@ const ImgMagnifier = ({ pwidth,pheight, scale=1, marginTop = 0, marginLeft = 10,
     }
     //鼠标移入事件
     const mousemove = (e,offsetWidth,offsetHeight)=>{
-        console.log(offsetWidth,offsetHeight,'aaa')
         const scaleX = e.offsetX / offsetWidth;//处于左边部分的距离
         const scaleY = e.offsetY / offsetHeight;//
         updImg(scaleX, scaleY, offsetWidth, offsetHeight)

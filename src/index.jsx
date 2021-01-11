@@ -1,5 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Example from './components/Example';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+import MapGeocoder from "./components/geocoder/index"
 
-render(<Example />, document.getElementById('root'));
+
+const domA =(
+    <div>
+               <MapGeocoder
+                visible={true}
+                close={()=>{console.log("aaa")}}
+                fullAddress={'aa'}
+                getLntlag={(aa)=>{console.log(aa)} }/>
+    </div>
+)
+
+render(domA, document.getElementById('root'));
